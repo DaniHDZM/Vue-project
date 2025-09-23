@@ -1,11 +1,11 @@
 <template>
-  <Contador></Contador>
-  <ListaTareas></ListaTareas>
+  <MainView></MainView>
+
+
 </template>
 
 <script setup>
-import Contador from './components/Contador.vue';
-import ListaTareas from './components/ListaTareas.vue';
+  import MainView from './views/MainView.vue';
 </script>
 
 <style scoped>
