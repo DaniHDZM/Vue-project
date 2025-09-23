@@ -8,6 +8,9 @@
             <li>
                 <router-link to="/lista-tareas">ListaTareas</router-link>
             </li>
+            <li>
+                <router-link to="/registrar">Registrar</router-link>
+            </li>
         </ul>
         
     </div>

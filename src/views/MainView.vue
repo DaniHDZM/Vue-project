@@ -1,6 +1,6 @@
 <template>
     <div class="container">
-        <SideBar></SideBar>
+        <Sidebar></Sidebar>
         <div class="content">
             <router-view></router-view>
         </div>
@@ -9,7 +9,7 @@
 </template>
 
 <script setup>
-    import SideBar from '@/components/SideBar.vue';
+    import Sidebar from '@/components/Sidebar.vue';
 </script>
 
 <style scoped>
