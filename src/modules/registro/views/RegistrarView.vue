@@ -1,6 +1,6 @@
 <template>
     <div>
-        <Form :validate-schema="schema" @submit="onSubmit">
+        <Form :validation-schema="schema" @submit="onSubmit">
             <h2>Formulario de registro</h2>
             <div class="form">
                 <label for="nombre">Nombre:</label>
